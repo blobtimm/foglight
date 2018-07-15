@@ -3,7 +3,7 @@ package com.blobtimm.foglight
 import kotlin.reflect.KClass
 import kotlin.reflect.full.declaredMemberProperties
 
-internal class Foglight{
+class Foglight{
 
     private var isStarted = false
     private val exceptions = mutableMapOf<String, FoglightAlertLevel>()
