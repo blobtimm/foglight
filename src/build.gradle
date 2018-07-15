@@ -1,5 +1,5 @@
 group 'com.blobtimm.foglight'
-version '0.9'
+version '0.9.1'
 
 buildscript {
     ext.kotlin_version = '1.2.41'
@@ -24,7 +24,6 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
     compile group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: "$kotlin_version"
